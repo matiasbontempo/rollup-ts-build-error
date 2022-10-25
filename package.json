@@ -10,7 +10,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "rollup": "rollup -c --bundleConfigAsCjs",
+    "ts": "tsc"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^9.0.2",
